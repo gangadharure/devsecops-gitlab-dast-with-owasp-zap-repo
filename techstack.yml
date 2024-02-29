@@ -2,7 +2,7 @@ repo_name: gangadharure/devsecops-gitlab-dast-with-owasp-zap-repo
 report_id: ec2870ee3e4a0b0401c34b019f9fb96c
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-15T15:17:14+00:00'
+timestamp: '2024-02-29T20:03:31+00:00'
 requested_by: asecurityguru
 provider: github
 branch: main
@@ -152,18 +152,18 @@ tools:
   last_updated_by: asecurityguru
   last_updated_on: 2022-07-25 06:29:54.000000000 Z
   vulnerabilities:
-  - name: Improper Restriction of XML External Entity Reference
-    cve_id: CVE-2020-13692
-    cve_url: https://github.com/advisories/GHSA-88cc-g835-76rp
-    detected_date: Feb 10
-    severity: high
-    first_patched: 42.2.13
-  - name: pgjdbc Does Not Check Class Instantiation when providing Plugin Classes
-    cve_id: CVE-2022-21724
-    cve_url: https://github.com/advisories/GHSA-v7wg-cpwc-24m4
-    detected_date: Feb 2
-    severity: high
-    first_patched: 42.2.25
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.2.28
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.2.8
   - name: PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious
       column names
     cve_id: CVE-2022-31197
@@ -171,6 +171,18 @@ tools:
     detected_date: Aug 7
     severity: high
     first_patched: 42.2.26
+  - name: pgjdbc Does Not Check Class Instantiation when providing Plugin Classes
+    cve_id: CVE-2022-21724
+    cve_url: https://github.com/advisories/GHSA-v7wg-cpwc-24m4
+    detected_date: Feb 2
+    severity: high
+    first_patched: 42.2.25
+  - name: Improper Restriction of XML External Entity Reference
+    cve_id: CVE-2020-13692
+    cve_url: https://github.com/advisories/GHSA-88cc-g835-76rp
+    detected_date: Feb 10
+    severity: high
+    first_patched: 42.2.13
   - name: pgjdbc Arbitrary File Write Vulnerability
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-673j-qm5f-xpv8

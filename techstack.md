@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [gangadharure/devsecops-gitlab-dast-with-owasp-zap-repo](https://github.com/gangadharure/devsecops-gitlab-dast-with-owasp-zap-repo)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|14<br/>Tools used|02/15/24 <br/>Report generated|
+|14<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -150,7 +150,7 @@ Full tech stack [here](/techstack.md)
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[org.jsoup:jsoup](https://jsoup.org/)|v1.8.3|07/25/22|asecurityguru |MIT|[CVE-2021-37714](https://github.com/advisories/GHSA-m72m-mhq2-9p6c) (High)<br/>[CVE-2022-36033](https://github.com/advisories/GHSA-gp7f-rwcx-9369) (Moderate)|
-|[org.postgresql:postgresql](http://jdbc.postgresql.org)|v42.2.5|07/25/22|asecurityguru |BSD-2-Clause|[CVE-2020-13692](https://github.com/advisories/GHSA-88cc-g835-76rp) (High)<br/>[CVE-2022-21724](https://github.com/advisories/GHSA-v7wg-cpwc-24m4) (High)<br/>[CVE-2022-31197](https://github.com/advisories/GHSA-r38f-c4h4-hqq2) (High)<br/>[](https://github.com/advisories/GHSA-673j-qm5f-xpv8) (Moderate)<br/>[CVE-2022-41946](https://github.com/advisories/GHSA-562r-vg33-8x8h) (Moderate)<br/>[CVE-2022-26520](https://github.com/advisories/GHSA-727h-hrw8-jg8q) (Low)|
+|[org.postgresql:postgresql](http://jdbc.postgresql.org)|v42.2.5|07/25/22|asecurityguru |BSD-2-Clause|[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56) (Critical)<br/>[](https://github.com/advisories/GHSA-xfg6-62px-cxc2) (Critical)<br/>[CVE-2022-31197](https://github.com/advisories/GHSA-r38f-c4h4-hqq2) (High)<br/>[CVE-2022-21724](https://github.com/advisories/GHSA-v7wg-cpwc-24m4) (High)<br/>[CVE-2020-13692](https://github.com/advisories/GHSA-88cc-g835-76rp) (High)<br/>[](https://github.com/advisories/GHSA-673j-qm5f-xpv8) (Moderate)<br/>[CVE-2022-41946](https://github.com/advisories/GHSA-562r-vg33-8x8h) (Moderate)<br/>[CVE-2022-26520](https://github.com/advisories/GHSA-727h-hrw8-jg8q) (Low)|
 |[org.springframework.boot:spring-boot-starter](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter)|N/A|07/25/22|asecurityguru |Apache-2.0|N/A|
 |[org.springframework.boot:spring-boot-starter-test](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test)|N/A|07/25/22|asecurityguru |Apache-2.0|N/A|
 |[org.springframework.boot:spring-boot-starter-web](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-web)|N/A|07/25/22|asecurityguru |Apache-2.0|N/A|
